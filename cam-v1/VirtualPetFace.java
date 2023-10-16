@@ -221,6 +221,16 @@ public class VirtualPetFace extends JFrame implements ActionListener{
             return true;
         }
     }
+
+    public void WaitMsec(int sec){
+        try{
+            Thread.sleep(sec);
+        } catch(Exception e){
+            
+        }
+
+
+    }
 }
 
  
