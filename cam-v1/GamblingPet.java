@@ -50,7 +50,7 @@ public class GamblingPet {
     public void EndGames(){
         if(totalmoneybet>totalmoneywon){
             face.setMessage("I am now $" + (totalmoneybet-totalmoneywon) + " in debt");
-            face.setImage("sick");
+            face.setImage("poor");
         }
         else{
             if(totalmoneywon>totalmoneybet){
